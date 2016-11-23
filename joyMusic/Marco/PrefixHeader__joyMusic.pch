@@ -1,0 +1,26 @@
+//
+//  PrefixHeader__joyMusic.pch
+//  joyMusic
+//
+//  Created by vvlong on 16/9/29.
+//  Copyright © 2016年 vvlong. All rights reserved.
+//
+
+#ifndef PrefixHeader__joyMusic_pch
+#define PrefixHeader__joyMusic_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark 学生信息定义
+
+#define VVScreenWidth       [UIScreen mainScreen].bounds.size.width
+#define VVScreenHeight      [UIScreen mainScreen].bounds.size.height
+
+//#ifdef __OBJC__
+
+//#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "Config.h"   //Config ViewModel
+#import "NetRequestClass.h"
+#import"AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#endif /* PrefixHeader__joyMusic_pch */

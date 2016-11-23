@@ -7,7 +7,11 @@
 //
 
 #import "SecondViewController.h"
-
+#import "MainNavigationController.h"
+#import "MenuViewController.h"
+#import "MyMusicViewController.h"
+#import "MusicShareViewController.h"
+//#import <AVOSCloud/AVOSCloud.h>
 @interface SecondViewController ()
 
 @end

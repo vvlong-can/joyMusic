@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "REFrostedViewController.h"
+#import "MenuViewController.h"
+#import "MainNavigationController.h"
+#import "FirstViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //    右滑侧栏插入
+    // Create content and menu controllers
+    MainNavigationController *navigationController = [[MainNavigationController alloc] initWithRootViewController:[[FirstViewController alloc] init]];
+    MenuViewController *menuController = [[MenuViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    // Create frosted view controller
+    //
+    REFrostedViewController *frostedViewController = [[REFrostedViewController alloc] initWithContentViewController:navigationController menuViewController:menuController];
+    frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    
+    // Make it a root controller
+    //
+    self.window.rootViewController = frostedViewController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AVOSCloud (3.6.1)
+  - AVOSCloudIM (3.6.1):
+    - AVOSCloud (= 3.6.1)
+    - AVOSCloudIM/_ARC (= 3.6.1)
+    - AVOSCloudIM/_NOARC (= 3.6.1)
+  - AVOSCloudIM/_ARC (3.6.1):
+    - AVOSCloud (= 3.6.1)
+    - AVOSCloudIM/_NOARC (= 3.6.1)
+  - AVOSCloudIM/_NOARC (3.6.1):
+    - AVOSCloud (= 3.6.1)
+  - DOUAudioStreamer (0.2.11)
+  - GVUserDefaults (1.0.2)
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
+  - MBProgressHUD (1.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AVOSCloud
+  - AVOSCloudIM
+  - DOUAudioStreamer (= 0.2.11)
+  - GVUserDefaults
+  - Mantle (= 1.5.5)
+  - MBProgressHUD
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AVOSCloud: cc9b567da2d30f07e3da1e4db682cad9ff56a1b6
+  AVOSCloudIM: 7c30a50d1e8f6afee000a2037ea24eb6abcbc8db
+  DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 48dc4787a5211c55e106a328585aa317ecbd0741
+
+COCOAPODS: 1.1.1
